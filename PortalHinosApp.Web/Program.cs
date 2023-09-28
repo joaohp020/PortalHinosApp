@@ -1,8 +1,11 @@
 
+using PortalHinosApp.Web.Domain.Handlers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<ICreateHinoHandler, CreateHinoHandler>();
 
 var app = builder.Build();
 
