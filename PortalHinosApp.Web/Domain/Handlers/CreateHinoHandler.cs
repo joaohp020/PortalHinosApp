@@ -11,6 +11,7 @@ namespace PortalHinosApp.Web.Domain.Handlers
             //validar os dados
             //iserir o hino
             //retorna resultado
+
             return new CreateHinoResponse
             {
                 Id = Guid.NewGuid(),
