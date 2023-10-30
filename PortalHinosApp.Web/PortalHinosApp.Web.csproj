@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Views\Pauta\" />
     <Folder Include="Views\Usuario\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
