@@ -8,5 +8,7 @@ namespace PortalHinosApp.Web.Controllers
         {
             return View();
         }
+
+
     }
 }
